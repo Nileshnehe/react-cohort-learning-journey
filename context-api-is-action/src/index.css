@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.sections{
+  background-color: aquamarine;
+  font-size: 40px;
+  color: black;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav-bar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.nav-btn {
+  background-color: aqua;
+  padding: 7px 17px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
