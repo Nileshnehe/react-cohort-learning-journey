@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.allproducts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: black;
+}
+
+.product {
+  display: block;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 330px;
+  text-decoration: none;
+}
+
+.product img {
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+}
+
+.product h2 {
+  font-size: 17px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  color: black;
+}
